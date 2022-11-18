@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    border: 2px solid red;
+    margin: 1rem;
+}
+
+.card img {
+    width: 245px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h2 {
+    color: rgb(17, 5, 85);
+}
+
+.card p {
+    color: rgb(17, 5, 85);
+}
+
+.card h3 {
+    text-decoration: none;
+    color: rgb(46, 6, 119);
+    display: inline-table;
+    font-size: 15px;
+    font-weight: 0px;
+    border-radius: 25px;
+    padding: 15px 45px;
+}
